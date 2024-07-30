@@ -101,7 +101,7 @@ int main() {
 	int data = 0;
 	init(s);
 
-	while (op != 0)
+	while (op > 0 && op < 5)
 	{
 		cout << "\t\t========== MENU ==========\n";
 		cout << "\t 1. Them ptu vao stack\n";
